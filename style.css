@@ -1,0 +1,65 @@
+.blue{
+    background: blue;
+    color: white;
+}
+.green{
+    background: green;
+    color: white;
+    border: 2px solid black;
+}
+*{margin: 10;
+padding: 0;}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page design</title>
+    <style>
+        h1{
+            color: green;
+        }
+        p{
+            color: black;
+            background-color: yellow;
+        }
+    
+    </style>
+</head>
+<body>
+    
+   <div>
+    <h1>Abhishek Bhatt</h1>
+    <p>This is the story of Abhishek Bhatt.</p>
+   </div>
+   <img src="image.jgp" height="250" width="500" alt="nature image">
+
+   <h2>If you are interested to join the free course of html and css then you can fill your from from the link below</h2>
+   <a href="www.boost your knowledge.com">Click here to fill the form</a>
+   <form action="form.php">
+    <input type="text" placeholder="Enter your name">
+
+ 
+    <label for="Qualificationida">
+        <input type="radio" value="Qualificaton a" name="Qualification" id="Qualificationida"> Bachelors degree
+</label>
+
+ <label for="Qualificatonidb">
+    <input type="radio" value="Qualification b" name="Qualification" id="qualificationidb"> <br>
+ </label>
+ <input type="checkbox" name="join course" id="course">
+ <label for="join course">I'm learning python so i want to join this course</label><br>
+
+<textarea name="Explain" id="Explain" cols="30" rows="10" placeholder="Explain why you want to join"></textarea> 
+<select name="Join course" id="join course">
+    <option value="Things you are good at">select a program you're good at</option>
+    <option value="C">C</option>
+    <option value="Python">Python</option>
+    <option value="Javascript">Javascript</option>
+</select>
+
+   </form>
+
+</body>
+</html>
